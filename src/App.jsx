@@ -30,7 +30,8 @@ import "./server";
 
 export default function App() {
   return (
-    <BrowserRouter>
+
+    < BrowserRouter >
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -56,6 +57,6 @@ export default function App() {
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter >
   );
 }

@@ -1,13 +1,15 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, doc, getDoc, getDocs, query, where } from "firebase/firestore";
 
+
+
 const firebaseConfig = {
     apiKey: import.meta.env.API_KEY,
-    authDomain: import.meta.env.AUTH_DOMAIN,
-    projectId: import.meta.env.PROJECT_ID,
-    storageBucket: import.meta.env.STORAGE_BUCKET,
-    messagingSenderId: import.meta.env.MESSAGING_SENDER_ID,
-    appId: import.meta.env.APP_ID
+    authDomain: "vanlife-ae3cd.firebaseapp.com",
+    projectId: "vanlife-ae3cd",
+    storageBucket: "vanlife-ae3cd.appspot.com",
+    messagingSenderId: "961496925032",
+    appId: "1:961496925032:web:64644aa214b78d316accdd"
 };
 
 const app = initializeApp(firebaseConfig);
